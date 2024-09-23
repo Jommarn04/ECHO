@@ -1,0 +1,63 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    margin-top: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+}
+
+.Link_logo {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.Link_menu {
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 400;
+    font-size: .9rem;
+    transition: .6s;
+}
+
+.Link_menu:hover {
+    color: #081158;
+}
+
+.btn_download {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 70px;
+}
+
+.Link_download {
+    text-decoration: none;
+    color: #FBB244;
+    background-color: #081158;
+    border: 2px solid #081158;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: .7s;
+}
+
+.Link_download:hover {
+    color: #081158;
+    border:2px solid #e9e9e9;
+    background-color: transparent;
+}
